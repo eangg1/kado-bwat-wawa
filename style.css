@@ -234,6 +234,14 @@ input#click {
   animation: fire 0.35s ease-in-out infinite, color2 0.2s linear infinite;
 }
   
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 @keyframes fire3 {
   100% { transform:translateX(20px) translateY(-93px); 
@@ -258,8 +266,4 @@ input#click {
 @keyframes color2 {
   from {background-color: #8cff00;}
   to {background-color: #1d2d44;}
-}
-
-body.play-music {
-  animation: fadeIn 2s ease-in-out;
 }
