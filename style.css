@@ -267,7 +267,3 @@ input#click {
   from {background-color: #8cff00;}
   to {background-color: #1d2d44;}
 }
-
-body.play-music {
-  animation: fadeIn 2s ease-in-out;
-}
